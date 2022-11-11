@@ -1,0 +1,152 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #F1F1F2;
+}
+
+.barraSeleccion{
+    background-color: #A1D6E2;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.barraLogo{
+    height: 40px;
+}
+
+.barraPalabra{
+    text-decoration: none;
+    color: #F1F1F2;
+    font-weight: bold;
+    font-size: small;
+}
+
+.promocion{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.promocionCuadro{
+    background-color: #BCBABE;
+    height: 250px;
+    width: 790px;
+    top: 115px;
+    left: 187px;
+    border-radius: 60px;
+}
+
+.promocionElecciones{
+    height: 50px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.promocionEleccion{
+    background-color: #BCBABE;
+    width: 25px;
+    height: 25px;
+    top: 547px;
+    left: 536.06px;
+    border-radius: 100px;
+}
+
+.destacados{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.destacadostitulo{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.destacadosProductos{
+    width: 790px;
+    height: 195px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.destacadosProducto{
+    background-color: #BCBABE;
+    width: 195px;
+    height: 195px;
+    border-radius: 60px;
+}
+
+.categoriaInd{
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.categoriaImg{
+    max-width: 250px;
+    max-height: 250px;
+    border-radius: 25px;
+}
+
+.marcasTitulo{
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.marcasCaja{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+}
+
+.marcas2{
+    background-color: #BCBABE;
+    width: 400px;
+    height: 225px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.marca{
+    font-size: 25px;
+    font-weight: bolder;
+    color: black;
+}
+
+.marcasImg{
+    width: 400px;
+    border-radius: 25px;
+}
+
+.pie{
+    background-color: #A1D6E2;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pieTexto{
+    font-size: 20px;
+    text-decoration: none;
+    color: #F1F1F2;
+}
